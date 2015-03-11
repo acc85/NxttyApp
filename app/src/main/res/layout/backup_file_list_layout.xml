@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbe4846">
+    <RelativeLayout
+        android:id="@+id/backup_file_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backup_file_list_top_text"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/please_select_file_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+        <!--<ImageView-->
+            <!--android:id="@+id/backup_file_list_white_line"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_below="@+id/backup_file_list_top_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/white_line"/>-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/backup_file_list"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/backup_file_list_top_text"
+            android:filterTouchesWhenObscured="false"/>
+            <!--android:layout_below="@+id/backup_file_list_white_line"/>-->
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backup_file_list_touch_overlay"
+        android:visibility="gone"/>
+</FrameLayout>

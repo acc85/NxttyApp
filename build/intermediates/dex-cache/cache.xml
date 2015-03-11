@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\NxttyApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\release\classes-d18387f000231fb34d37b0e12e688d54c355ddd5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Raymond\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.3.2\3202421d9425ced69919b282afa644e7ef0e8fef\httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\debug\httpmime-4.3.2-21584d558ab8c1ee1fa6d8c748dbae2135989e1e.jar" />
+    </item>
+    <item
+        jar="C:\NxttyApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\release\classes-0cb4564a671a3b7f0dfddc5be5480f29df58e107.jar" />
+    </item>
+    <item
+        jar="C:\NxttyApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\release\classes-b0df51179e8aada3a3b8e38e2929578adb436ed8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Raymond\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4\e9b3863fd9c8a273ceed4a7fae10f40bb10a2328\httpcore-4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b3863fd9c8a273ceed4a7fae10f40bb10a2328">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\debug\httpcore-4.4-1c32fc8c1607518946e9cf9433bde0534a3de65f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Raymond\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.3\a85588bec3e2c4584d593d3f15df1677321bca72\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-a170be7608ad81e604d97a26ef6ddcb638c555f4.jar" />
+    </item>
+    <item
+        jar="C:\NxttyApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\release\internal_impl-21.0.3-ceefecbdd22286b1e0f26a01086a86813802a9ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Raymond\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.5\77bf7cacf9cefe19dc105e5425d2eb1bb5285881\android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.5-6db3b8a5b66ea1f931a1c511ea88d5b8c27da631.jar" />
+    </item>
+    <item
+        jar="C:\Users\Raymond\.gradle\caches\modules-2\files-2.1\com.michaelpardo\activeandroid\3.1.0-SNAPSHOT\4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08\activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\debug\activeandroid-3.1.0-SNAPSHOT-6f83703d45928c498be7e2b630102615c4d2f389.jar" />
+    </item>
+    <item
+        jar="C:\Users\Raymond\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\release\support-annotations-21.0.3-6dcf896e62409ab02218232cb2382f456275ac18.jar" />
+    </item>
+    <item
+        jar="C:\NxttyApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\NxttyApp\app\build\intermediates\pre-dexed\debug\classes-fc768f71d1d23e87602eb6ddc8357c14a6de5a1a.jar" />
+    </item>
+
+</items>

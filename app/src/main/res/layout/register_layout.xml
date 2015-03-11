@@ -1,0 +1,164 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/register_layout"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" >
+
+        <ImageView
+            android:id="@+id/register_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logo_white" />
+
+        <EditText
+            android:id="@+id/register_email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/round_white_box"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="7dp"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/register_password_field"
+            android:layout_below="@+id/register_email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_white_box"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="7dp"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/register_password_confirm_field"
+            android:layout_below="@+id/register_password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_white_box"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="7dp"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/register_show_password_check_box"
+            android:layout_below="@+id/register_password_confirm_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/check_box_selector_check_uncheck"
+            android:text="@string/show_password"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/register_secret_key_field"
+            android:layout_below="@+id/register_show_password_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_white_box"
+            android:hint="@string/secret_key"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="7dp"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:imeOptions="actionDone"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/register_secret_key_tip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_secret_key_field"
+            android:text="@string/secret_key_instruction_text"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="5dp"
+            android:textSize="13sp"/>
+
+        <CheckBox
+            android:id="@+id/register_remember_me_check_box"
+            android:layout_below="@+id/register_secret_key_tip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/check_box_selector_check_uncheck"
+            android:layout_marginTop="15dp"
+            android:text="@string/remember_me"
+            android:textColor="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/register_backup_details_check_box"
+            android:layout_toRightOf="@+id/register_remember_me_check_box"
+            android:button="@drawable/check_box_selector_check_uncheck"
+            android:layout_below="@+id/register_secret_key_tip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/backup_details"
+            android:textColor="@android:color/white" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/register_backup_details_check_box">
+            <TextView
+                android:id="@+id/register_have_account_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:text="@string/already_have_account_text"/>
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_selector"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="@string/register"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

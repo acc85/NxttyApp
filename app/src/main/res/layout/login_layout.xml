@@ -1,0 +1,164 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <ImageView
+            android:id="@+id/login_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logo_white" />
+
+        <EditText
+            android:id="@+id/login_email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/round_white_box"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="7dp"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/login_password_field"
+            android:layout_below="@+id/login_email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_white_box"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="7dp"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/login_show_password_check_box"
+            android:layout_below="@+id/login_password_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/check_box_selector_check_uncheck"
+            android:text="@string/show_password"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/login_secret_key_field"
+            android:layout_below="@+id/login_show_password_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_white_box"
+            android:hint="@string/secret_key"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="7dp"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:imeOptions="actionDone"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/login_secret_key_tip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_secret_key_field"
+            android:text="@string/secret_key_instruction_text"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="5dp"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/login_import_details_button"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_selector"
+            android:text="@string/import_details_button_text"
+            android:padding="5dp"
+            android:layout_below="@+id/login_secret_key_tip_text"/>
+
+        <Button
+            android:id="@+id/login_export_details_button"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/login_import_details_button"
+            android:background="@drawable/button_selector"
+            android:text="@string/export_details_button_text"
+            android:padding="5dp"
+            android:layout_below="@+id/login_secret_key_tip_text"/>
+
+        <CheckBox
+            android:id="@+id/login_remember_me_check_box"
+            android:layout_below="@+id/login_import_details_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:button="@drawable/check_box_selector_check_uncheck"
+            android:text="@string/remember_me"
+            android:textColor="@android:color/white" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/login_remember_me_check_box">
+            <TextView
+                android:id="@+id/login_do_not_have_account_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:text="@string/do_not_have_account_text"/>
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_selector"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="@string/login"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

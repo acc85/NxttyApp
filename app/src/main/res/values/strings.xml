@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Nxtty</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+<!---->
+    <!--<string name="action_example">Example action</string>-->
+
+    <string name="action_settings">Settings</string>
+    <string name="settings_profile">Profile</string>
+
+    <!--Settings Section-->
+    <string-array name="settings_list">
+        <item>Profile</item>
+    </string-array>
+
+
+    <string-array name="choice_list">
+        <item>Take from camera</item>
+        <item>Select from gallery</item>
+    </string-array>
+
+    <string name="complete_action">Complete action using</string>
+
+    <!--Register Login Section-->
+    <string name="enter_email">Enter Email...</string>
+    <string name="enter_password">Enter Password...</string>
+    <string name="confirm_password">Confirm Password...</string>
+    <string name="secret_key">Secret Key...</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="secret_key_instruction_text">This can be anything you want. Only Text and numbers</string>
+    <string name="do_not_have_account_text">Don\'t have an account?\nRegister</string>
+    <string name="already_have_account_text">Already have an account?\nSign in</string>
+    <string name="import_details_button_text">Import Details</string>
+    <string name="export_details_button_text">Export Details</string>
+    <string name="please_select_file_text">Please select a file</string>
+    <string name="show_password">Show Passwords</string>
+    <string name="no_backup_data_text">Sorry you do not have any backup data</string>
+    <string name="enter">Enter</string>
+    <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
+    <string name="sign_in_underlined"><u>Sign in</u></string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="alias_name">Alias Name</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="referal_code">Referral Code (optional)</string>
+    <string name="network_error">Please check you internet connection.</string>
+    <string name="backup_details">Backup Details</string>
+
+
+    <!--Navigation Item Name-->
+    <string name="navigation_public_chat_string">Public Chat</string>
+    <string name="navigation_open_chat_string">Open Chat</string>
+    <string name="navigation_wallet_string">Wallet</string>
+    <string name="navigation_contacts_string">Contacts</string>
+    <string name="navigation_find_users_string">Find Users</string>
+    <string name="navigation_settings_string">Settings</string>
+    <string name="navigation_logout_string">Logout</string>
+
+
+</resources>

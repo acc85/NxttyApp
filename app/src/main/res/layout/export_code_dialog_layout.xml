@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbe4846"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Input encryption code"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:id="@+id/digitOne"
+            android:padding="2dp"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_white_box_two"
+            android:editable="false"
+            android:singleLine="true"
+            android:numeric="integer"
+            android:maxLength="1"
+            android:focusable="true"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_white_box_two"
+            android:inputType="number"
+            android:id="@+id/digitTwo"
+            android:layout_margin="5dp"
+            android:padding="2dp"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:focusable="true"
+            android:maxLength="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_white_box_two"
+            android:inputType="number"
+            android:id="@+id/digitThree"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:padding="2dp"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:focusable="true"
+            android:maxLength="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_white_box_two"
+            android:inputType="number"
+            android:id="@+id/digitFour"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:padding="2dp"
+            android:layout_gravity="center_horizontal"
+            android:editable="false"
+            android:singleLine="true"
+            android:focusable="true"
+            android:maxLength="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <Button
+            android:id="@+id/export_details_accept_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:text="Accept"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_selector"/>
+        <Button
+            android:id="@+id/export_details_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="@color/red"
+            android:text="Cancel"
+            android:background="@drawable/button_selector"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

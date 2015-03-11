@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="profile_image_bg">#AAAAAA</color>
+    <color name="red">#FFF40009</color>
+    <color name="fadedRed">#4ef40009</color>
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="greyish">#fff2f1f2</color>
+    <color name="light_grey">#ffd1cfd0</color>
+    <color name="white">#ffffff</color>
+    <color name="off_grey">#EEEEEE</color>
+    <color name="grey_text">#A1A1A1</color>
+    <color name="selection_gray">#FFCBCBCB</color>
+    <color name="dark_red">#ffbe4846</color>
+    <color name="material_grey">#8f8f8f</color>
+
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <PreferenceCategory
+        android:title="PROFILE PICTURE SETTINGS"
+        android:key="profile_picture_settings"
+        android:layout="@layout/custom_preferences_categories_layout">
+        <com.nxtty.nxttyapp.CustomViews.ProfilePhotoPreference
+            android:layout="@layout/profile_photo_layout"
+            android:title="Profile Photo"
+            android:summary="Select a Nxtty Profile Picture"
+            android:key="profile_photo"/>
+        <SwitchPreference
+            android:title="Avatar"
+            android:key="avatar"
+            android:layout="@layout/switch_preference_layout"
+            android:textSize="10sp"
+            android:summary="User Profile Picture as avatar in chat"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="NOTIFICATION SETTINGS"
+        android:key="notification_settings"
+        android:layout="@layout/custom_preferences_categories_layout">
+        <SwitchPreference
+            android:title="Private Chat"
+            android:key="private_chat"
+            android:layout="@layout/switch_preference_layout"
+            android:textSize="10sp"
+            android:summary="Notify me when there's a new private chat message"/>
+    </PreferenceCategory>
+</PreferenceScreen>

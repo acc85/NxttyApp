@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <!-- enable window content transitions -->
+
+        <!-- specify enter and exit transitions -->
+        <!--<item name="android:windowExitTransition">@transition/slide_in_from_right</item>-->
+
+
+    <!-- Customize your theme here. -->
+    </style>
+
+    <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+    <style name="StartAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <!--<item name="android:background">f40b13</item>-->
+        <!--<item name="android:background">#ffbe4846</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>
